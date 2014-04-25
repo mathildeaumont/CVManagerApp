@@ -3,11 +3,61 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
+              android:background="@color/darkGrey"
         >
-    <TextView
+    <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity :)"
-            />
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/textView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/home"
+                  android:layout_gravity="center_horizontal"
+                />
+        <Button
+                android:id="@+id/seeCV"
+                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                android:text="@string/seeCv"
+                android:onClick="selfDestruct"
+                android:layout_marginTop="30dp"
+                android:textColor="#CCCCCC"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#5A848F"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                />
+
+        <Button
+                android:id="@+id/addCV"
+                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                android:text="@string/addCv"
+                android:onClick="selfDestruct"
+                android:layout_marginTop="15dp"
+                android:textColor="#CCCCCC"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#5A848F"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                />
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/author"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="@string/author"
+                  android:layout_marginTop="40dp"
+                />
+    </LinearLayout>
+
 </LinearLayout>
 

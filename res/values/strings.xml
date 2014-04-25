@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CVManagerApp</string>
+    <string name="title_cv_list_activity">CVListActivity</string>
+    <string name="seeCv">Voir les CV</string>
+    <string name="addCv">Ajouter un CV</string>
+    <string name="author">By Mathilde Aumont</string>
+    <color name="darkGrey">#222222</color>
 </resources>

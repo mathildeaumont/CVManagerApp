@@ -12,5 +12,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".CVListActivity"
+                  android:label="@string/title_cv_list_activity"/>
     </application>
 </manifest> 
